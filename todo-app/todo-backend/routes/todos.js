@@ -37,7 +37,6 @@ singleRouter.delete('/', async (req, res) => {
 singleRouter.get('/', async (req, res) => {
   res.send(req.todo).end()
 
-  //res.sendStatus(405); // Implement this
 
 });
 
