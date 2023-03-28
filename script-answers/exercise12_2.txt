@@ -1,0 +1,15 @@
+Script started on 2023-03-27 13:11:22+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="90" LINES="28"]
+]0;asdmin@archlinux:/home/asdmin/Desktop/Devaus/part12-containers-applications[?2004h[root@archlinux part12-containers-applications]# exitquit[1Puitreboot[3Pguireboot[3Puitquitexit[Kdocker run -it ubuntu [K bash
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K2ab09b027e7f: Pulling fs layer [1B[1A[2K2ab09b027e7f: Downloading  310.6kB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  932.2kB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  1.542MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  1.854MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  3.406MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading   4.95MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  5.884MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  6.191MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  8.039MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  9.595MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  11.45MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  13.31MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  14.87MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  16.41MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  18.28MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  19.82MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  21.69MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  23.55MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  25.42MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  27.28MB/29.53MB[1B[1A[2K2ab09b027e7f: Downloading  29.14MB/29.53MB[1B[1A[2K2ab09b027e7f: Download complete [1B[1A[2K2ab09b027e7f: Extracting  327.7kB/29.53MB[1B[1A[2K2ab09b027e7f: Extracting  5.898MB/29.53MB[1B[1A[2K2ab09b027e7f: Extracting  10.49MB/29.53MB[1B[1A[2K2ab09b027e7f: Extracting  14.75MB/29.53MB[1B[1A[2K2ab09b027e7f: Extracting  19.33MB/29.53MB[1B[1A[2K2ab09b027e7f: Extracting  24.25MB/29.53MB[1B[1A[2K2ab09b027e7f: Extracting  27.85MB/29.53MB[1B[1A[2K2ab09b027e7f: Extracting  29.53MB/29.53MB[1B[1A[2K2ab09b027e7f: Pull complete [1BDigest: sha256:67211c14fa74f070d27cc59d69a7fa9aeff8e28ea118ef3babc295a0428a6d21
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@898f8acfb51f: /root@898f8acfb51f:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@898f8acfb51f: /root@898f8acfb51f:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@898f8acfb51f: /root@898f8acfb51f:/# [Kexit
+[?2004lexit
+]0;asdmin@archlinux:/home/asdmin/Desktop/Devaus/part12-containers-applications[?2004h[root@archlinux part12-containers-applications]# exit
+[?2004lexit
+
+Script done on 2023-03-27 13:12:45+03:00 [COMMAND_EXIT_CODE="0"]
