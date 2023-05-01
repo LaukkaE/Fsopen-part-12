@@ -1,0 +1,58 @@
+Script started on 2023-04-18 13:49:05+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="42"]
+]0;asdmin@archlinux:/home/asdmin/Desktop/Devaus/part12-containers-applications[?2004h[root@archlinux part12-containers-applications]# docker container run -d -p 8080:80 mongo
+[?2004l095a95cb8839116df399b7b56a4ce5afa632f947c24bfe2dbb35c8d1efbfbaf5
+]0;asdmin@archlinux:/home/asdmin/Desktop/Devaus/part12-containers-applications[?2004h[root@archlinux part12-containers-applications]# docker container ls
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                              NAMES
+095a95cb8839   mongo     "docker-entrypoint.s…"   19 seconds ago   Up 19 seconds   27017/tcp, 0.0.0.0:8080->80/tcp, :::8080->80/tcp   pedantic_colden
+]0;asdmin@archlinux:/home/asdmin/Desktop/Devaus/part12-containers-applications[?2004h[root@archlinux part12-containers-applications]# docker exec -it pedantic_colden bash
+[?2004l[?2004hroot@095a95cb8839:/# ls
+[?2004lbin   data  docker-entrypoint-initdb.d	home	    lib    lib64   media  opt	root  sbin  sys  usr
+boot  dev   etc				js-yaml.js  lib32  libx32  mnt	  proc	run   srv   tmp  var
+[?2004hroot@095a95cb8839:/# mongosh
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	643e75e4feb548a8f0570440
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.8.0[0m
+Using MongoDB:		6.0.5
+[1m[33mUsing Mongosh[0m:		1.8.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the [1mdisableTelemetry()[0m command.
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2023-04-18T10:49:16.704+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2023-04-18T10:49:16.801+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2023-04-18T10:49:16.801+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+   2023-04-18T10:49:16.801+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1m[33m------[0m
+   Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+   metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+   
+   The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+   and anyone you share the URL with. MongoDB may use this information to make product
+   improvements and to suggest MongoDB products and deployment options to you.
+   
+   To enable free monitoring, run the following command: db.enableFreeMonitoring()
+   To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gshow dbs
+[1madmin[0m   40.00 KiB
+[1mconfig[0m  12.00 KiB
+[1mlocal[0m   40.00 KiB
+[1G[0Jtest> [7Gexit
+[?2004hroot@095a95cb8839:/# exit
+[?2004lexit
+]0;asdmin@archlinux:/home/asdmin/Desktop/Devaus/part12-containers-applications[?2004h[root@archlinux part12-containers-applications]# c[Kscript
+[?2004lScript started, output log file is 'typescript'.
+]0;asdmin@archlinux:/home/asdmin/Desktop/Devaus/part12-containers-applications[?2004h[root@archlinux part12-containers-applications]# s[Kexit
+[?2004lexit
+Script done.
+]0;asdmin@archlinux:/home/asdmin/Desktop/Devaus/part12-containers-applications[?2004h[root@archlinux part12-containers-applications]# exit
+[?2004lexit
+
+Script done on 2023-04-18 13:51:52+03:00 [COMMAND_EXIT_CODE="0"]

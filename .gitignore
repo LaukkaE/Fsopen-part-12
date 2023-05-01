@@ -1,1 +1,5 @@
 /node_modules
+/redis
+/redis_data
+todo-app/todo-backend/redis_data/
+todo-app/todo-backend/redis/
